@@ -8,13 +8,7 @@ const Header = () => {
         <NavLink to="/">
           <h1 className="font-extrabold">CodeOpen</h1>
         </NavLink>
-        <ul className="flex gap-2 ">
-          <li>
-            <NavLink to={"/compile"}>
-              <Button variant="outline">Compiler</Button>
-            </NavLink>
-          </li>
-        </ul>
+      
       </nav>
     </>
   );
