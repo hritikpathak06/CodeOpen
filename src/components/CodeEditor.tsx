@@ -19,7 +19,7 @@ function CodeEditor() {
 
   const dispatch = useDispatch();
 
-  const [value, setValue] = React.useState("console.log('hello world!');");
+  // const [value, setValue] = React.useState("console.log('hello world!');");
   const onChange = React.useCallback((value: string) => {
     dispatch(updateCodeValue(value));
   }, []);
